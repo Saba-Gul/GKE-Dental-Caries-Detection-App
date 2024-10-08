@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# Virtual Environment
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variable files
+.env
+
+# Other
+*.git
+*.gitignore

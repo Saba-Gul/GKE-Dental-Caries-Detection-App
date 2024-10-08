@@ -1,0 +1,29 @@
+# Exclude Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude virtual environment directories
+venv/
+env/
+
+# Exclude Docker-related files
+Dockerfile
+.dockerignore
+
+# Exclude version control directories
+.git/
+.gitignore
+
+# Exclude IDE and editor directories
+.idea/
+.vscode/
+
+# Exclude Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude other unnecessary files
+*.log
+*.sqlite3
+*.db
